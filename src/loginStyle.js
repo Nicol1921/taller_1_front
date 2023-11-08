@@ -2,23 +2,23 @@ import { css } from "lit-element";
 
 export default css`
   #form {
-    background: #8a98a6;
+    background: #ADD8E6; 
     padding: 98px;
     border-radius: 20px;
     border: 2px solid grey;
   }
 
   #form2 {
-    background: #484f57;
+    background: #ADD8E6;
     padding: 98px;
     border-radius: 20px;
     right: 100px;
-    border: #c72020;
+    border: 2px solid black;
   }
   #container-username {
-    background-color: #ffffff;
+    background-color: #ADD8E6; 
   }
   #container-password {
-    background-color: #ffffff;
+    background-color: #ADD8E6; 
   }
 `;

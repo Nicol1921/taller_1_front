@@ -1,3 +1,4 @@
+
 import { LitElement, html } from "lit-element";
 import stylesScss from "./loginStyle";
 import { Router } from "@vaadin/router";
@@ -7,8 +8,8 @@ export class Login extends LitElement {
     super();
     // Usuario predefinido
     this.usuarioPredefinido = {
-      email: "jeferson@gmail.com",
-      password: "123456",
+      email: "Nicol@gmail.com",
+      password: "Nicol123",
     };
 
     // Comprueba si se recuerda el usuario
@@ -96,13 +97,13 @@ export class Login extends LitElement {
             style="width: 28rem; height: 18rem; text-align: center; position: relative;"
           >
             <img
-              src="./src/img/user.png"
+              src="./src/img/user1.png"
               alt="login-icon"
               style="height: 10rem; position: absolute; top: -5rem; left: 50%; transform: translateX(-50%);"
             />
 
             <div class="input-group mt-3" style="width: 20rem; right: 11%;">
-              <div class="input-group-text" style="background-color: #343A40;">
+              <div class="input-group-text" style="background-color:#D9F9F4;">
                 <img
                   src="./src/img/username-icon.svg"
                   alt="username-icon"
@@ -119,14 +120,14 @@ export class Login extends LitElement {
               />
             </div>
             <div class="input-group mt-3" style="width: 20rem; right: 11%;">
-              <div class="input-group-text" style="background-color: #343A40;">
+              <div class="input-group-text" style="background-color: #D9F9F4;">
                 <img
                   src="./src/img/password-icon.svg"
                   alt="username-icon"
                   style="height: 1rem"
                 />
               </div>
-              <input
+              <input style="background-color: white;
                 id="container-password"
                 class="form-control font-weight-bold"
                 type="password"
