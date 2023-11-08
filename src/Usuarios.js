@@ -123,7 +123,7 @@ export class Home1 extends LitElement {
         <div class="pt-2 d-flex justify-content-left">
           <div
             class="d-flex flex-shrink-0 p-3 ml-5"
-            style="width: 250px; background-color: rgb(201, 205, 207); border-radius: 1rem; height: 36rem;"
+            style="width: 250px; background-color:rgb(46, 198, 255); border-radius: 1rem; height: 36rem;"
           >
             <hr />
             <ul class="nav nav-pills flex-column mb-auto" style="width: 25rem;">
@@ -131,7 +131,7 @@ export class Home1 extends LitElement {
                 <a
                   href="#" @click=${(e) => this.usuarios()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color:rgb(46, 198, 255);border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                   <i class="fas fa-user me-2"></i> Usuarios
@@ -142,7 +142,7 @@ export class Home1 extends LitElement {
                   href="#"
                   @click=${(e) => this.campanas()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: #a5ddf2; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                   <i class="fas fa-building me-2"></i>Campañas
@@ -153,7 +153,7 @@ export class Home1 extends LitElement {
                   href="#"
                   @click=${(e) => this.equipos()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: #a5ddf2; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                     <i class="fas fa-users me-2"></i>   Equipos
@@ -199,7 +199,7 @@ export class Home1 extends LitElement {
                 <div>
                   <div
                     class="d-flex flex-shrink-0 p-3"
-                    style="width: 222px; background-color: rgb(201, 205, 207); border-top-left-radius: 1rem; border-top-right-radius: 1rem; height: 10rem;"
+                    style="width: 222px; background-color: rgb(46, 198, 255); border-top-left-radius: 1rem; border-top-right-radius: 1rem; height: 10rem;"
                   >
                     <hr />
                     <ul class="nav nav-pills flex-column mb-auto" style="width: 25rem;">
@@ -223,7 +223,7 @@ export class Home1 extends LitElement {
                         <button
                             @click=${this.searchUser}
                             class="mt-2 text-center"
-                            style="width: 5rem; border-radius: 5px; border: #343A40; background-color: #D9F9F4 ; color: white;"
+                            style="width: 5rem; border-radius: 5px; border: #343A40; background-color: rgb(46, 198, 255); color: white;"
                           >
                           Buscar
                         </button>
@@ -242,7 +242,7 @@ export class Home1 extends LitElement {
                       <button
                         @click=${this.openModal}
                         class="mt-1 text-center move-right-button"
-                        style="width: 70px; height: 40px; border-radius: 5px; border: #D9F9F4 ; background-color: #343A40; color: white;"
+                        style="width: 70px; height: 40px; border-radius: 5px; border: #343A40; background-color: rgb(46, 198, 255);  color: white;"
                       >
                         Nuevo
                       </button>
@@ -261,10 +261,10 @@ export class Home1 extends LitElement {
         <label for="campaignInput">Campaña:</label>
         <input type="text" id="campaignInput" name="campaignInput"><br><br>
 
-        <button @click=${this.saveUser} style="padding: 10px; border: none; background-color: #D9F9F4 ; color: white; border-radius: 5px; cursor: pointer;">
+        <button @click=${this.saveUser} style="padding: 10px; border: none; background-color: white  color: white; border-radius: 5px; cursor: pointer;">
           Registrar
         </button>
-        <button @click=${this.closeModal} style="padding: 10px; border: none; background-color: #D9F9F4 ; color: white; border-radius: 5px; cursor: pointer; margin-left: 10px;">
+        <button @click=${this.closeModal} style="padding: 10px; border: none; background-color: white color: white; border-radius: 5px; cursor: pointer; margin-left: 10px;">
           Cerrar
         </button>
       </form>
