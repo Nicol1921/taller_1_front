@@ -5,7 +5,7 @@ export default css`
     height: 70px;
     font-size: 40px;
     font-weight: bold;
-    background-color: #FF5733;
+    background-color: #ADD8E6;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     color: white;
@@ -22,7 +22,7 @@ export default css`
     font-size: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #FF9966; 
+    background-color: #ADD8E6; 
     color: white;
   }
   #cuadro {
@@ -36,8 +36,8 @@ export default css`
   }
   .custom-button {
     border-radius: 5px;
-    border: #FF5733; 
-    background-color: #FF5733; 
+    border: #ADD8E6; 
+    background-color: #ADD8E6;
     color: white;
     padding: 5px 10px;
     font-size: 14px;
@@ -56,7 +56,7 @@ export default css`
     background-color: rgba(0, 0, 0, 0.4);
   }
   .modal-content {
-    background-color: #3366FF; 
+    background-color: #ADD8E6;
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
@@ -89,8 +89,8 @@ export default css`
   }
   .btn-primary {
     width: 100px;
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+    background-color: #ADD8E6;
+    border-color: #ADD8E6; 
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
