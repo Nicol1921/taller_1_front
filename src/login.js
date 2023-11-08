@@ -102,7 +102,7 @@ export class Login extends LitElement {
             />
 
             <div class="input-group mt-3" style="width: 20rem; right: 11%;">
-              <div class="input-group-text" style="background-color:#D9F9F4;">
+              <div class="input-group-text" style="background-color: #343A40;">
                 <img
                   src="./src/img/username-icon.svg"
                   alt="username-icon"
@@ -119,7 +119,7 @@ export class Login extends LitElement {
               />
             </div>
             <div class="input-group mt-3" style="width: 20rem; right: 11%;">
-              <div class="input-group-text" style="background-color: #D9F9F4;">
+              <div class="input-group-text" style="background-color: #343A40;">
                 <img
                   src="./src/img/password-icon.svg"
                   alt="username-icon"
