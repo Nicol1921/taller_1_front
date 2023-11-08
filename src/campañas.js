@@ -99,7 +99,7 @@ export class Home2 extends LitElement {
         <div class="pt-2 d-flex justify-content-left">
           <div
             class="d-flex flex-shrink-0 p-3 ml-5"
-            style="width: 250px; background-color: rgb(201, 205, 207); border-radius: 1rem; height: 36rem;"
+            style="width: 250px; background-color: rgb(46, 198, 255); border-radius: 1rem; height: 36rem;"
           >
             <hr />
             <ul class="nav nav-pills flex-column mb-auto" style="width: 25rem;">
@@ -107,7 +107,11 @@ export class Home2 extends LitElement {
                 <a
                   href="#"href="#" @click=${(e) => this.usuarios()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
+<<<<<<< HEAD
                   style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
+=======
+                  style="color: #a5ddf2; border-radius: 10px; height: 45px; font-size: 18px;"
+>>>>>>> 844bce3e1ab2903843ddafa0229aab9dc415327e
                   aria-current="page"
                 >
                   <i class="fas fa-user me-2"></i> Usuarios
@@ -118,7 +122,11 @@ export class Home2 extends LitElement {
                   href="#"
                   @click=${(e) => this.campanas()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
+<<<<<<< HEAD
                   style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
+=======
+                  style="color: rgb(46, 198, 255); border-radius: 10px; height: 45px; font-size: 18px;"
+>>>>>>> 844bce3e1ab2903843ddafa0229aab9dc415327e
                   aria-current="page"
                 >
                   <i class="fas fa-building me-2"></i>Campañas
@@ -129,7 +137,7 @@ export class Home2 extends LitElement {
                   href="#"
                   @click=${(e) => this.equipos()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: grey; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: #a5ddf2; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                     <i class="fas fa-users me-2"></i>   Equipos
@@ -186,6 +194,7 @@ export class Home2 extends LitElement {
                     <div class="row g-0 text-center pt-1">
                       <button
                         id="btnFiltrar"
+        
                         class="col-sm-6 col-md-4 border border-secondary font-weight-bold"
                         style="font-size: 19px; height: 68px; border-radius: 7px;"
                       >
@@ -194,7 +203,7 @@ export class Home2 extends LitElement {
                       <button
                         @click=${this.openModal}
                         class="mt-1 text-center"
-                        style="width: 70px; height: 40px; border-radius: 5px; border: #343A40; background-color: #343A40; color: white;"
+                        style="width: 70px; height: 40px; border-radius: 5px; border: #343A40; background-color:   rgb(46, 198, 255); color: white;"
                       >
                         Nuevo
                       </button>
