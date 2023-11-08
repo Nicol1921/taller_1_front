@@ -5,7 +5,7 @@ export default css`
     height: 70px;
     font-size: 40px;
     font-weight: bold;
-    background-color: #FF5733; /* Change background color to orange */
+    background-color: #FF5733;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     color: white;
@@ -22,7 +22,7 @@ export default css`
     font-size: 15px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #FF9966; /* Change background color to a different shade of orange */
+    background-color: #FF9966; 
     color: white;
   }
   #cuadro {
@@ -36,8 +36,8 @@ export default css`
   }
   .custom-button {
     border-radius: 5px;
-    border: #FF5733; /* Change border color to orange */
-    background-color: #FF5733; /* Change background color to orange */
+    border: #FF5733; 
+    background-color: #FF5733; 
     color: white;
     padding: 5px 10px;
     font-size: 14px;
@@ -56,7 +56,7 @@ export default css`
     background-color: rgba(0, 0, 0, 0.4);
   }
   .modal-content {
-    background-color: #3366FF; /* Change background color to blue */
+    background-color: #3366FF; 
     margin: 5% auto;
     padding: 20px;
     border: 1px solid #888;
