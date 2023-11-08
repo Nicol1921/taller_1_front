@@ -131,7 +131,7 @@ export class Home1 extends LitElement {
                 <a
                   href="#" @click=${(e) => this.usuarios()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: grey; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                   <i class="fas fa-user me-2"></i> Usuarios
@@ -142,7 +142,7 @@ export class Home1 extends LitElement {
                   href="#"
                   @click=${(e) => this.campanas()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: grey; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                   <i class="fas fa-building me-2"></i>Campañas
@@ -153,7 +153,7 @@ export class Home1 extends LitElement {
                   href="#"
                   @click=${(e) => this.equipos()}
                   class="nav-link active bg-light pt-2 font-weight-bold"
-                  style="color: grey; border-radius: 10px; height: 45px; font-size: 18px;"
+                  style="color: blue; border-radius: 10px; height: 45px; font-size: 18px;"
                   aria-current="page"
                 >
                     <i class="fas fa-users me-2"></i>   Equipos
