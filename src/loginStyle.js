@@ -13,7 +13,7 @@ export default css`
     padding: 98px;
     border-radius: 20px;
     right: 100px;
-    border: 2px solid #c72020;
+    border: 2px solid black;
   }
   #container-username {
     background-color: #ADD8E6; 
@@ -22,4 +22,3 @@ export default css`
     background-color: #ADD8E6; 
   }
 `;
-
